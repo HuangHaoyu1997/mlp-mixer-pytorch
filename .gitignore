@@ -128,3 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+mlp_mixer_pytorch/data/cifar-10-batches-py/batches.meta
+mlp_mixer_pytorch/data/cifar-10-batches-py/data_batch_1
+mlp_mixer_pytorch/data/cifar-10-batches-py/data_batch_2
+mlp_mixer_pytorch/data/cifar-10-batches-py/data_batch_3
+mlp_mixer_pytorch/data/cifar-10-batches-py/data_batch_4
+mlp_mixer_pytorch/data/cifar-10-batches-py/data_batch_5
+mlp_mixer_pytorch/data/cifar-10-batches-py/readme.html
+mlp_mixer_pytorch/data/cifar-10-batches-py/test_batch
+mlp_mixer_pytorch/data/cifar-10-python.tar.gz
