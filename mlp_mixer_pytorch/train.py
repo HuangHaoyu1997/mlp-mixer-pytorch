@@ -7,7 +7,7 @@ import torchvision
 import torchvision.transforms as transforms
 import torch.optim as optim
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
 
 transform = transforms.Compose(
     [
@@ -15,7 +15,7 @@ transform = transforms.Compose(
     ]
 )
 trainset = torchvision.datasets.CIFAR10(root='./mlp_mixer_pytorch/data/',train=True,download=True,transform=transform)
-trainloader = torch.utils.data.DataLoader(trainset,batch_size=64,shuffle=True)
+trainloader = torch.utils.data.DataLoader(trainset,batch_size=256,shuffle=True)
 testset = torchvision.datasets.CIFAR10(root='./mlp_mixer_pytorch/data/',train=False,download=True,transform=transform)
 testloader = torch.utils.data.DataLoader(trainset,batch_size=4,shuffle=False)
 
